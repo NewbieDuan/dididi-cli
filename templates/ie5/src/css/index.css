@@ -1,0 +1,387 @@
+* {
+  box-sizing: border-box;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p,
+div {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Microsoft YaHei;
+  font-size: 14px;
+  color: #333;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mt-4 {
+  margin-top: 4px;
+}
+.ml-10 {
+  margin-left: 10px;
+}
+.ml-20 {
+  margin-left: 20px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.pl-20 {
+  padding-left: 20px;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.fs18 {
+  font-size: 18px;
+}
+.fs16 {
+  font-size: 16px;
+}
+.zoom-1 {
+  zoom: 1;
+  overflow: hidden;
+}
+.over-hidden {
+  overflow: hidden;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+.w100 {
+  width: 100%;
+}
+.bold {
+  font-weight: bold;
+}
+.middle {
+  vertical-align: middle;
+}
+.underline {
+  text-decoration: underline;
+}
+.pointer {
+  cursor: pointer;
+}
+.main-color {
+  color: #3ab5c9;
+}
+.dot-list {
+  list-style: disc;
+}
+.pre-line {
+  white-space: pre-line;
+  word-break: break-all;
+}
+.empty-image {
+  width: 45px;
+  height: 45px;
+  display: block;
+  margin: 0 auto;
+}
+html,
+body {
+  height: 100%;
+}
+input {
+  font-size: 12px;
+}
+.bold {
+  font-weight: 500;
+}
+.container-wrap {
+  z-index: 100;
+}
+.err-tip {
+  position: absolute;
+  z-index: 111;
+  top: 12px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  display: none;
+}
+.err-tip .tip-text {
+  padding: 12px 36px;
+  background-color: #feecec;
+  border: 1px solid #fdd8d9;
+  font-size: 12px;
+  color: #fe3d3c;
+  display: inline-block;
+}
+.container {
+  width: 400px;
+  height: 100%;
+  border: 1px solid #ededed;
+  background-color: #fff;
+}
+.header {
+  height: 60px;
+  background-color: #e1e1e1;
+  cursor: move;
+}
+.drag-area {
+  overflow: hidden;
+}
+.content-wrap {
+  overflow-y: auto;
+}
+.content-box {
+  padding: 10px 20px;
+  font-size: 12px;
+}
+.bah {
+  font-size: 14px;
+}
+.item {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ebecf0;
+}
+.basic-info li {
+  margin-top: 2px;
+}
+.aden-content {
+  display: none;
+}
+.risk-item {
+  margin-top: 10px;
+  overflow: hidden;
+  zoom: 1;
+}
+.risk-item .overspend {
+  color: #fe3d3c;
+}
+.risk-item-left,
+.risk-item-right {
+  vertical-align: middle;
+}
+.risk-item-left {
+  float: left;
+  width: 75%;
+}
+.risk-item-left.full {
+  width: 100%;
+}
+.risk-item-right {
+  float: right;
+  width: 23%;
+}
+.risk-item-right .flag {
+  width: 15px;
+  height: 15px;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+.risk-item-right .text {
+  vertical-align: middle;
+}
+.drg-box {
+  border: 1px solid #f2f2f2;
+}
+.drg-form {
+  padding-top: 10px;
+  padding-right: 10px;
+  height: 350px;
+  overflow-y: auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.drg-form-item {
+  overflow: hidden;
+  zoom: 1;
+}
+.drg-form-item.visible {
+  overflow: visible;
+}
+.drg-form-item-short {
+  float: left;
+  width: 45%;
+}
+.drg-form-item-short.left {
+  padding-right: 10px;
+}
+.drg-form-item-short.right {
+  padding-left: 10px;
+}
+.drg-form-title {
+  margin-bottom: 6px;
+}
+.drg-form-field {
+  margin-bottom: 2px;
+}
+.relative-field {
+  position: relative;
+  height: 24px;
+  z-index: 9;
+}
+.r-list {
+  position: absolute;
+  left: 38px;
+  top: 24px;
+  width: 296px;
+  border: 1px solid #999;
+  background-color: #fff;
+  z-index: 999;
+  height: 120px;
+  padding: 0 16px;
+  font-size: 12px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: none;
+}
+.r-list li {
+  height: 30px;
+  line-height: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.r-list-item {
+  cursor: pointer;
+}
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.error-tip {
+  height: 12px;
+  font-size: 12px;
+  color: #fe3d3c;
+}
+.drg-info {
+  margin: 10px 16px;
+  padding: 20px 10px 20px 18px;
+  border: 1px solid #f5f5f5;
+}
+.drg-info.no-border {
+  border-color: transparent;
+}
+.u-list {
+  overflow: hidden;
+}
+.u-list-item {
+  height: 28px;
+  line-height: 28px;
+  zoom: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.u-list-item .text {
+  float: left;
+  height: 28px;
+  white-space: nowrap;
+  width: 260px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.u-list-item .text.short {
+  width: 200px;
+}
+.u-list-item .delete-icon {
+  width: 18px;
+  height: 20px;
+  cursor: pointer;
+  float: right;
+  margin-top: 4px;
+}
+.loading-mask {
+  position: absolute;
+  left: 22px;
+  top: 436px;
+  height: 350px;
+  width: 326px;
+  z-index: 100;
+  background-color: #fff;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  display: none;
+}
+.drg-info-item {
+  margin-top: 6px;
+  zoom: 1;
+  overflow: hidden;
+}
+.drg-info-title {
+  float: left;
+}
+.drg-info-title.l {
+  width: 80px;
+}
+.drg-info-title.m {
+  width: 60px;
+}
+.drg-info-title.s {
+  width: 56px;
+}
+.drg-info-title.mi {
+  width: 40px;
+}
+.drg-info-content.large {
+  margin-left: 80px;
+}
+.drg-info-content.mid {
+  margin-left: 60px;
+}
+.drg-info-content.small {
+  margin-left: 56px;
+}
+.drg-info-content.mini {
+  margin-left: 40px;
+}
+.dot-list {
+  list-style: none;
+}
+.dot-list li {
+  padding-left: 10px;
+  background: url(../images/dot.png) 0 5px no-repeat;
+}
+.tag-span {
+  width: 50px;
+  line-height: 1;
+  float: right;
+  margin-top: 6px;
+}
+.c-btn {
+  padding: 2px 6px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.c-btn.gray {
+  background-color: #fff;
+  border: 1px solid #555;
+  color: #555;
+}
+.c-btn.blue {
+  background-color: #3ab5c9;
+  border: 1px solid #3ab5c9;
+  color: #fff;
+}
